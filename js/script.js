@@ -1,3 +1,4 @@
+
 window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
     const heroContent = document.querySelector('.hero-content');
@@ -44,7 +45,7 @@ const setupSlider = (sliderId, prevClass, nextClass, gap) => {
 
 setupSlider('newsSlider', '.nav-arrow.left', '.nav-arrow.right', 80);
 setupSlider('storiesSlider', '.nav-arrow.left', '.nav-arrow.right', 15);
-setupSlider('insightsSlider', '.news-insights-section .nav-arrow.left', '.news-insights-section .nav-arrow.right', 20);
+setupSlider('insightsSlider', '.news-insights-section .nav-arrow.left', '.news-insights-section .nav-arrow.right', 60);
 
 const hamburger = document.getElementById('hamburger');
 const header = document.querySelector('.header');
@@ -114,3 +115,4 @@ document.addEventListener('keydown', (e) => {
         if (header) header.classList.remove('menu-open');
     }
 });
+
